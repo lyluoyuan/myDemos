@@ -1,0 +1,3 @@
+pod 'MMProgressHUD'
+pod 'BFKit'
+pod 'JTCalendar', '~> 2.0'

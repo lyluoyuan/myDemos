@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SmartLabel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGR-X3-oHR">
+                                <rect key="frame" x="15" y="41" width="565" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oIU-Rv-5Lz" customClass="YYTextView">
+                                <rect key="frame" x="15" y="75" width="565" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="SCa-If-EXE"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fnd-VN-1bO">
+                                <rect key="frame" x="15" y="128" width="565" height="64"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="9D0-ON-9fa"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BWY-a6-lmM">
+                                <rect key="frame" x="15" y="200" width="565" height="72"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gl6-h4-aGz">
+                                        <rect key="frame" x="8" y="8" width="95" height="34"/>
+                                        <color key="backgroundColor" red="0.29803921570000003" green="0.68627450980000004" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="95" id="v58-Bs-Xjj"/>
+                                            <constraint firstAttribute="height" constant="34" id="xPd-ww-JCx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="gl6-h4-aGz" firstAttribute="top" secondItem="BWY-a6-lmM" secondAttribute="topMargin" id="JKy-T5-TFg"/>
+                                    <constraint firstAttribute="bottom" secondItem="gl6-h4-aGz" secondAttribute="bottom" constant="30" id="PhS-R2-uF7"/>
+                                    <constraint firstAttribute="trailing" secondItem="gl6-h4-aGz" secondAttribute="trailing" constant="30" id="c4O-lQ-aMh"/>
+                                    <constraint firstAttribute="height" constant="72" id="rey-W2-EYN"/>
+                                    <constraint firstItem="gl6-h4-aGz" firstAttribute="leading" secondItem="BWY-a6-lmM" secondAttribute="leadingMargin" id="vtC-iz-Tqz"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BWY-a6-lmM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="12x-Jl-Qwg"/>
+                            <constraint firstItem="SGR-X3-oHR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="5qS-dD-GKc"/>
+                            <constraint firstItem="BWY-a6-lmM" firstAttribute="top" secondItem="fnd-VN-1bO" secondAttribute="bottom" constant="8" id="68y-3l-dd6"/>
+                            <constraint firstAttribute="trailing" secondItem="BWY-a6-lmM" secondAttribute="trailing" constant="20" id="EdS-aF-vxq"/>
+                            <constraint firstItem="SGR-X3-oHR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="I9H-p4-AcP"/>
+                            <constraint firstAttribute="trailing" secondItem="SGR-X3-oHR" secondAttribute="trailing" constant="20" id="Ih5-rv-X6L"/>
+                            <constraint firstAttribute="trailing" secondItem="fnd-VN-1bO" secondAttribute="trailing" constant="20" id="Ohr-e1-Raq"/>
+                            <constraint firstAttribute="trailing" secondItem="oIU-Rv-5Lz" secondAttribute="trailing" constant="20" id="Wku-8q-lfQ"/>
+                            <constraint firstItem="oIU-Rv-5Lz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="feh-SE-CZW"/>
+                            <constraint firstItem="oIU-Rv-5Lz" firstAttribute="top" secondItem="SGR-X3-oHR" secondAttribute="bottom" constant="13" id="fxB-JR-etM"/>
+                            <constraint firstItem="fnd-VN-1bO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="nEO-Wh-liM"/>
+                            <constraint firstItem="fnd-VN-1bO" firstAttribute="top" secondItem="oIU-Rv-5Lz" secondAttribute="bottom" constant="8" id="rsn-OM-4HV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="smartLabel" destination="SGR-X3-oHR" id="iBL-wG-bnz"/>
+                        <outlet property="smartTextView" destination="oIU-Rv-5Lz" id="01G-Sr-cSa"/>
+                        <outlet property="testScrollView" destination="BWY-a6-lmM" id="eJa-MU-XhU"/>
+                        <outlet property="testTextView" destination="fnd-VN-1bO" id="GIb-hf-Wc7"/>
+                        <outlet property="textViewheight" destination="SCa-If-EXE" id="Rdv-YJ-3lp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339" y="429"/>
+        </scene>
+    </scenes>
+</document>

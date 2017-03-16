@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I59-Fl-gJO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QRCodeViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LXN-hX-flG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="357"/>
+        </scene>
+        <!--Code View Controller-->
+        <scene sceneID="khk-IW-z0q">
+            <objects>
+                <viewController storyboardIdentifier="QRCodeViewController" id="MLa-ft-Gik" customClass="QRCodeViewController" customModule="QRCodeViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o1p-Lw-GUa"/>
+                        <viewControllerLayoutGuide type="bottom" id="7PK-nC-wgg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="py5-eq-myP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFS-4f-q1S">
+                                <rect key="frame" x="180" y="120" width="240" height="240"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zFS-4f-q1S" secondAttribute="height" multiplier="1:1" id="5nR-dV-3An"/>
+                                    <constraint firstAttribute="width" constant="240" id="ji9-4g-Jo4"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="将二维码放入框内，即可自动扫描" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YG1-Oz-H2f">
+                                <rect key="frame" x="180" y="378" width="240" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y54-db-pSZ">
+                                <rect key="frame" x="180" y="530" width="240" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2PL-b2-q0i"/>
+                                </constraints>
+                                <state key="normal" title="取 消"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YG1-Oz-H2f" firstAttribute="centerX" secondItem="py5-eq-myP" secondAttribute="centerX" id="9fp-fR-Edn"/>
+                            <constraint firstItem="YG1-Oz-H2f" firstAttribute="width" secondItem="zFS-4f-q1S" secondAttribute="width" id="H2g-Ew-wDp"/>
+                            <constraint firstItem="zFS-4f-q1S" firstAttribute="top" secondItem="o1p-Lw-GUa" secondAttribute="bottom" constant="100" id="J0J-HY-HFu"/>
+                            <constraint firstItem="y54-db-pSZ" firstAttribute="centerX" secondItem="py5-eq-myP" secondAttribute="centerX" id="dzk-DI-oaj"/>
+                            <constraint firstItem="7PK-nC-wgg" firstAttribute="top" secondItem="y54-db-pSZ" secondAttribute="bottom" constant="30" id="giD-73-KkR"/>
+                            <constraint firstItem="YG1-Oz-H2f" firstAttribute="top" secondItem="zFS-4f-q1S" secondAttribute="bottom" constant="18" id="jsc-qq-tqe"/>
+                            <constraint firstItem="zFS-4f-q1S" firstAttribute="centerX" secondItem="py5-eq-myP" secondAttribute="centerX" id="qcd-lN-UIQ"/>
+                            <constraint firstItem="y54-db-pSZ" firstAttribute="width" secondItem="zFS-4f-q1S" secondAttribute="width" id="s2B-hp-2BL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="y54-db-pSZ" id="ggc-mk-V0e"/>
+                        <outlet property="contentLabel" destination="YG1-Oz-H2f" id="Aih-Bm-L7N"/>
+                        <outlet property="scanView" destination="zFS-4f-q1S" id="Z1Z-Zx-zmB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KMp-b1-rut" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="485"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8Ro-CQ-NBK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="I59-Fl-gJO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vRZ-OA-lmP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qlz-N8-B5J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pPU-Cr-Uhi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="512" y="357"/>
+        </scene>
+    </scenes>
+</document>

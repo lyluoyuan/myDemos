@@ -1,0 +1,27 @@
+PODS:
+  - BFKit (1.9.0)
+  - IQKeyboardManager (3.3.7)
+  - MJRefresh (3.1.0)
+  - RegExCategories (1.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - BFKit
+  - IQKeyboardManager
+  - MJRefresh
+  - RegExCategories (~> 1.0)
+  - SDWebImage (~> 3.7.1)
+  - UITableView+FDTemplateLayoutCell (~> 1.3)
+
+SPEC CHECKSUMS:
+  BFKit: 690e1e90a79ced430405aab7f8f3f976eaa9b6b5
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+COCOAPODS: 0.38.2

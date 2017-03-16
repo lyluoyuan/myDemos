@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BFKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JTCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MMProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5E09C7A4DFAD0E2E7E47B0D8F4393680</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8CCE753524C44A6731DD5BDC728B27D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB2AC5D1BFA1D97B59A2CE400AD6A97A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBA15643F6AAA069C4143FF3F83EB152</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

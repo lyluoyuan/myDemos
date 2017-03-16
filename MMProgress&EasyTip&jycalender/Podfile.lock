@@ -1,0 +1,16 @@
+PODS:
+  - BFKit (1.9.0)
+  - JTCalendar (2.1.5)
+  - MMProgressHUD (0.3.2)
+
+DEPENDENCIES:
+  - BFKit
+  - JTCalendar (~> 2.0)
+  - MMProgressHUD
+
+SPEC CHECKSUMS:
+  BFKit: 690e1e90a79ced430405aab7f8f3f976eaa9b6b5
+  JTCalendar: 57a4420f12d10c93c3b28da96803e7043d1c9281
+  MMProgressHUD: a913b116ba6791d67d37f9fb4211079200fb7595
+
+COCOAPODS: 0.38.2

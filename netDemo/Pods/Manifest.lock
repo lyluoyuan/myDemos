@@ -1,0 +1,13 @@
+PODS:
+  - BFKit (1.9.0)
+  - RegExCategories (1.0)
+
+DEPENDENCIES:
+  - BFKit
+  - RegExCategories (~> 1.0)
+
+SPEC CHECKSUMS:
+  BFKit: 690e1e90a79ced430405aab7f8f3f976eaa9b6b5
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+
+COCOAPODS: 0.38.2

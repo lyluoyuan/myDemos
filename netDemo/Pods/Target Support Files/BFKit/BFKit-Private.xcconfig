@@ -1,0 +1,6 @@
+#include "BFKit.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/BFKit" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BFKit" "${PODS_ROOT}/Headers/Public/RegExCategories"
+OTHER_LDFLAGS = ${BFKIT_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

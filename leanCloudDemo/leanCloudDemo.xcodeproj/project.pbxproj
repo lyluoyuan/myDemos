@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C2E706D1C84291500B53F05 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2E706A1C84291500B53F05 /* libmp3lame.a */; };
+		1C2E706E1C84291500B53F05 /* RecordingManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E706C1C84291500B53F05 /* RecordingManage.m */; };
+		1C3568231CABCC0900A7763D /* LYCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3568221CABCC0900A7763D /* LYCache.swift */; };
+		1C53D8691C9BEE7100620418 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1C53D8681C9BEE7000620418 /* test.mp4 */; };
+		1C53D86B1C9BF27000620418 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C53D86A1C9BF27000620418 /* MediaPlayer.framework */; };
+		1CFD450C1C7EFDC500FB5619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD450B1C7EFDC500FB5619 /* AppDelegate.swift */; };
+		1CFD450E1C7EFDC500FB5619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD450D1C7EFDC500FB5619 /* ViewController.swift */; };
+		1CFD45111C7EFDC500FB5619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD450F1C7EFDC500FB5619 /* Main.storyboard */; };
+		1CFD45131C7EFDC500FB5619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD45121C7EFDC500FB5619 /* Assets.xcassets */; };
+		1CFD45161C7EFDC500FB5619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD45141C7EFDC500FB5619 /* LaunchScreen.storyboard */; };
+		1CFD45211C7EFDC500FB5619 /* leanCloudDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD45201C7EFDC500FB5619 /* leanCloudDemoTests.swift */; };
+		1CFD452C1C7EFDC500FB5619 /* leanCloudDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD452B1C7EFDC500FB5619 /* leanCloudDemoUITests.swift */; };
+		1CFD453B1C7EFF2000FB5619 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFD453A1C7EFF2000FB5619 /* SystemConfiguration.framework */; };
+		1CFD453D1C7EFF2700FB5619 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFD453C1C7EFF2700FB5619 /* MobileCoreServices.framework */; };
+		1CFD453F1C7EFF2D00FB5619 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFD453E1C7EFF2D00FB5619 /* CoreTelephony.framework */; };
+		1CFD45411C7EFF3400FB5619 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFD45401C7EFF3400FB5619 /* CoreLocation.framework */; };
+		1CFD45431C7EFF3E00FB5619 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFD45421C7EFF3E00FB5619 /* libicucore.tbd */; };
+		1CFD45451C7EFF4D00FB5619 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFD45441C7EFF4D00FB5619 /* libc++.tbd */; };
+		F3B55F2E261DD805198EEA09 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 180272F8A7E9F8B7E9378F0E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CFD451D1C7EFDC500FB5619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CFD45001C7EFDC500FB5619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CFD45071C7EFDC500FB5619;
+			remoteInfo = leanCloudDemo;
+		};
+		1CFD45281C7EFDC500FB5619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CFD45001C7EFDC500FB5619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CFD45071C7EFDC500FB5619;
+			remoteInfo = leanCloudDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180272F8A7E9F8B7E9378F0E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2E70691C84291500B53F05 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		1C2E706A1C84291500B53F05 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		1C2E706B1C84291500B53F05 /* RecordingManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingManage.h; sourceTree = "<group>"; };
+		1C2E706C1C84291500B53F05 /* RecordingManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingManage.m; sourceTree = "<group>"; };
+		1C3568221CABCC0900A7763D /* LYCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCache.swift; sourceTree = "<group>"; };
+		1C53D8681C9BEE7000620418 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		1C53D86A1C9BF27000620418 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1CFD45081C7EFDC500FB5619 /* leanCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leanCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFD450B1C7EFDC500FB5619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CFD450D1C7EFDC500FB5619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CFD45101C7EFDC500FB5619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CFD45121C7EFDC500FB5619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CFD45151C7EFDC500FB5619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CFD45171C7EFDC500FB5619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFD451C1C7EFDC500FB5619 /* leanCloudDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leanCloudDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFD45201C7EFDC500FB5619 /* leanCloudDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leanCloudDemoTests.swift; sourceTree = "<group>"; };
+		1CFD45221C7EFDC500FB5619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFD45271C7EFDC500FB5619 /* leanCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leanCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFD452B1C7EFDC500FB5619 /* leanCloudDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leanCloudDemoUITests.swift; sourceTree = "<group>"; };
+		1CFD452D1C7EFDC500FB5619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFD45391C7EFE9000FB5619 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		1CFD453A1C7EFF2000FB5619 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1CFD453C1C7EFF2700FB5619 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1CFD453E1C7EFF2D00FB5619 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1CFD45401C7EFF3400FB5619 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1CFD45421C7EFF3E00FB5619 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		1CFD45441C7EFF4D00FB5619 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3F8F255B80D4596F6380987D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8C0A7CF6E86E0D3FC3560586 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CFD45051C7EFDC500FB5619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C53D86B1C9BF27000620418 /* MediaPlayer.framework in Frameworks */,
+				1CFD45451C7EFF4D00FB5619 /* libc++.tbd in Frameworks */,
+				1C2E706D1C84291500B53F05 /* libmp3lame.a in Frameworks */,
+				1CFD45431C7EFF3E00FB5619 /* libicucore.tbd in Frameworks */,
+				1CFD45411C7EFF3400FB5619 /* CoreLocation.framework in Frameworks */,
+				1CFD453F1C7EFF2D00FB5619 /* CoreTelephony.framework in Frameworks */,
+				1CFD453D1C7EFF2700FB5619 /* MobileCoreServices.framework in Frameworks */,
+				1CFD453B1C7EFF2000FB5619 /* SystemConfiguration.framework in Frameworks */,
+				F3B55F2E261DD805198EEA09 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFD45191C7EFDC500FB5619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFD45241C7EFDC500FB5619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2E70671C84291500B53F05 /* RecordingManage */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E70681C84291500B53F05 /* lame */,
+				1C2E706B1C84291500B53F05 /* RecordingManage.h */,
+				1C2E706C1C84291500B53F05 /* RecordingManage.m */,
+			);
+			path = RecordingManage;
+			sourceTree = "<group>";
+		};
+		1C2E70681C84291500B53F05 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E70691C84291500B53F05 /* lame.h */,
+				1C2E706A1C84291500B53F05 /* libmp3lame.a */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		1CFD44FF1C7EFDC500FB5619 = {
+			isa = PBXGroup;
+			children = (
+				1CFD45391C7EFE9000FB5619 /* Header.h */,
+				1CFD450A1C7EFDC500FB5619 /* leanCloudDemo */,
+				1CFD451F1C7EFDC500FB5619 /* leanCloudDemoTests */,
+				1CFD452A1C7EFDC500FB5619 /* leanCloudDemoUITests */,
+				1CFD45091C7EFDC500FB5619 /* Products */,
+				361C2A81333E01FA11797C03 /* Pods */,
+				8CA7F0EF87C991B18C37F73D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CFD45091C7EFDC500FB5619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD45081C7EFDC500FB5619 /* leanCloudDemo.app */,
+				1CFD451C1C7EFDC500FB5619 /* leanCloudDemoTests.xctest */,
+				1CFD45271C7EFDC500FB5619 /* leanCloudDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CFD450A1C7EFDC500FB5619 /* leanCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1C3568221CABCC0900A7763D /* LYCache.swift */,
+				1C2E70671C84291500B53F05 /* RecordingManage */,
+				1CFD450B1C7EFDC500FB5619 /* AppDelegate.swift */,
+				1CFD450D1C7EFDC500FB5619 /* ViewController.swift */,
+				1CFD450F1C7EFDC500FB5619 /* Main.storyboard */,
+				1C53D8681C9BEE7000620418 /* test.mp4 */,
+				1CFD45121C7EFDC500FB5619 /* Assets.xcassets */,
+				1CFD45141C7EFDC500FB5619 /* LaunchScreen.storyboard */,
+				1CFD45171C7EFDC500FB5619 /* Info.plist */,
+			);
+			path = leanCloudDemo;
+			sourceTree = "<group>";
+		};
+		1CFD451F1C7EFDC500FB5619 /* leanCloudDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD45201C7EFDC500FB5619 /* leanCloudDemoTests.swift */,
+				1CFD45221C7EFDC500FB5619 /* Info.plist */,
+			);
+			path = leanCloudDemoTests;
+			sourceTree = "<group>";
+		};
+		1CFD452A1C7EFDC500FB5619 /* leanCloudDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD452B1C7EFDC500FB5619 /* leanCloudDemoUITests.swift */,
+				1CFD452D1C7EFDC500FB5619 /* Info.plist */,
+			);
+			path = leanCloudDemoUITests;
+			sourceTree = "<group>";
+		};
+		361C2A81333E01FA11797C03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C0A7CF6E86E0D3FC3560586 /* Pods.debug.xcconfig */,
+				3F8F255B80D4596F6380987D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CA7F0EF87C991B18C37F73D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C53D86A1C9BF27000620418 /* MediaPlayer.framework */,
+				1CFD45441C7EFF4D00FB5619 /* libc++.tbd */,
+				1CFD45421C7EFF3E00FB5619 /* libicucore.tbd */,
+				1CFD45401C7EFF3400FB5619 /* CoreLocation.framework */,
+				1CFD453E1C7EFF2D00FB5619 /* CoreTelephony.framework */,
+				1CFD453C1C7EFF2700FB5619 /* MobileCoreServices.framework */,
+				1CFD453A1C7EFF2000FB5619 /* SystemConfiguration.framework */,
+				180272F8A7E9F8B7E9378F0E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CFD45071C7EFDC500FB5619 /* leanCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFD45301C7EFDC500FB5619 /* Build configuration list for PBXNativeTarget "leanCloudDemo" */;
+			buildPhases = (
+				CBD7E391F7BA882729E725CB /* Check Pods Manifest.lock */,
+				1CFD45041C7EFDC500FB5619 /* Sources */,
+				1CFD45051C7EFDC500FB5619 /* Frameworks */,
+				1CFD45061C7EFDC500FB5619 /* Resources */,
+				9737824D69B4DC2917B066A6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leanCloudDemo;
+			productName = leanCloudDemo;
+			productReference = 1CFD45081C7EFDC500FB5619 /* leanCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CFD451B1C7EFDC500FB5619 /* leanCloudDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFD45331C7EFDC500FB5619 /* Build configuration list for PBXNativeTarget "leanCloudDemoTests" */;
+			buildPhases = (
+				1CFD45181C7EFDC500FB5619 /* Sources */,
+				1CFD45191C7EFDC500FB5619 /* Frameworks */,
+				1CFD451A1C7EFDC500FB5619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFD451E1C7EFDC500FB5619 /* PBXTargetDependency */,
+			);
+			name = leanCloudDemoTests;
+			productName = leanCloudDemoTests;
+			productReference = 1CFD451C1C7EFDC500FB5619 /* leanCloudDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CFD45261C7EFDC500FB5619 /* leanCloudDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFD45361C7EFDC500FB5619 /* Build configuration list for PBXNativeTarget "leanCloudDemoUITests" */;
+			buildPhases = (
+				1CFD45231C7EFDC500FB5619 /* Sources */,
+				1CFD45241C7EFDC500FB5619 /* Frameworks */,
+				1CFD45251C7EFDC500FB5619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFD45291C7EFDC500FB5619 /* PBXTargetDependency */,
+			);
+			name = leanCloudDemoUITests;
+			productName = leanCloudDemoUITests;
+			productReference = 1CFD45271C7EFDC500FB5619 /* leanCloudDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CFD45001C7EFDC500FB5619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zm004;
+				TargetAttributes = {
+					1CFD45071C7EFDC500FB5619 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1CFD451B1C7EFDC500FB5619 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1CFD45071C7EFDC500FB5619;
+					};
+					1CFD45261C7EFDC500FB5619 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1CFD45071C7EFDC500FB5619;
+					};
+				};
+			};
+			buildConfigurationList = 1CFD45031C7EFDC500FB5619 /* Build configuration list for PBXProject "leanCloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CFD44FF1C7EFDC500FB5619;
+			productRefGroup = 1CFD45091C7EFDC500FB5619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CFD45071C7EFDC500FB5619 /* leanCloudDemo */,
+				1CFD451B1C7EFDC500FB5619 /* leanCloudDemoTests */,
+				1CFD45261C7EFDC500FB5619 /* leanCloudDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CFD45061C7EFDC500FB5619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFD45161C7EFDC500FB5619 /* LaunchScreen.storyboard in Resources */,
+				1CFD45131C7EFDC500FB5619 /* Assets.xcassets in Resources */,
+				1CFD45111C7EFDC500FB5619 /* Main.storyboard in Resources */,
+				1C53D8691C9BEE7100620418 /* test.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFD451A1C7EFDC500FB5619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFD45251C7EFDC500FB5619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9737824D69B4DC2917B066A6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD7E391F7BA882729E725CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CFD45041C7EFDC500FB5619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2E706E1C84291500B53F05 /* RecordingManage.m in Sources */,
+				1C3568231CABCC0900A7763D /* LYCache.swift in Sources */,
+				1CFD450E1C7EFDC500FB5619 /* ViewController.swift in Sources */,
+				1CFD450C1C7EFDC500FB5619 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFD45181C7EFDC500FB5619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFD45211C7EFDC500FB5619 /* leanCloudDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFD45231C7EFDC500FB5619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFD452C1C7EFDC500FB5619 /* leanCloudDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CFD451E1C7EFDC500FB5619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CFD45071C7EFDC500FB5619 /* leanCloudDemo */;
+			targetProxy = 1CFD451D1C7EFDC500FB5619 /* PBXContainerItemProxy */;
+		};
+		1CFD45291C7EFDC500FB5619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CFD45071C7EFDC500FB5619 /* leanCloudDemo */;
+			targetProxy = 1CFD45281C7EFDC500FB5619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CFD450F1C7EFDC500FB5619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFD45101C7EFDC500FB5619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CFD45141C7EFDC500FB5619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFD45151C7EFDC500FB5619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CFD452E1C7EFDC500FB5619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CFD452F1C7EFDC500FB5619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CFD45311C7EFDC500FB5619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0A7CF6E86E0D3FC3560586 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = leanCloudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/leanCloudDemo/RecordingManage/lame",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AVOSCloud\"",
+					"-l\"AVOSCloudIM\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-lsqlite3",
+					"-lc++",
+					"-ObjC",
+					"-licucore",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmaitech.leanCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
+			};
+			name = Debug;
+		};
+		1CFD45321C7EFDC500FB5619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8F255B80D4596F6380987D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = leanCloudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/leanCloudDemo/RecordingManage/lame",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AVOSCloud\"",
+					"-l\"AVOSCloudIM\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-lsqlite3",
+					"-lc++",
+					"-ObjC",
+					"-licucore",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmaitech.leanCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
+			};
+			name = Release;
+		};
+		1CFD45341C7EFDC500FB5619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = leanCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmaitech.leanCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leanCloudDemo.app/leanCloudDemo";
+			};
+			name = Debug;
+		};
+		1CFD45351C7EFDC500FB5619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = leanCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmaitech.leanCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leanCloudDemo.app/leanCloudDemo";
+			};
+			name = Release;
+		};
+		1CFD45371C7EFDC500FB5619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = leanCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmaitech.leanCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = leanCloudDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1CFD45381C7EFDC500FB5619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = leanCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmaitech.leanCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = leanCloudDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CFD45031C7EFDC500FB5619 /* Build configuration list for PBXProject "leanCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFD452E1C7EFDC500FB5619 /* Debug */,
+				1CFD452F1C7EFDC500FB5619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFD45301C7EFDC500FB5619 /* Build configuration list for PBXNativeTarget "leanCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFD45311C7EFDC500FB5619 /* Debug */,
+				1CFD45321C7EFDC500FB5619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFD45331C7EFDC500FB5619 /* Build configuration list for PBXNativeTarget "leanCloudDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFD45341C7EFDC500FB5619 /* Debug */,
+				1CFD45351C7EFDC500FB5619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFD45361C7EFDC500FB5619 /* Build configuration list for PBXNativeTarget "leanCloudDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFD45371C7EFDC500FB5619 /* Debug */,
+				1CFD45381C7EFDC500FB5619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CFD45001C7EFDC500FB5619 /* Project object */;
+}

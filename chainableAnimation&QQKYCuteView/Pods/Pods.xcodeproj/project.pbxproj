@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030AE5C0CD4052B8DAB54BFC99E8E470 /* JHChainableAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF127924512FDF554F36EA451A5C000 /* JHChainableAnimations-dummy.m */; };
+		15306B5DB72B5BF66533DA73E235AC55 /* UIView+JHChainableAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = B7224F738FB115BCEF6E13A4F67C24EA /* UIView+JHChainableAnimations.m */; };
+		1F4598C76EFFF8E10619B496451B8329 /* KYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = B95719922D86A02DAA44FB013C26C45E /* KYCuteView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		237FFF544995D83AAFAEE1EEEC9AD0C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0212E3AA629BD1D87D2A780E28A17589 /* Foundation.framework */; };
+		38C3E8DE093B69C36DB705D30B4779E4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AE43AFA989FBCFC84FCE6D5AF63671 /* Pods-dummy.m */; };
+		3CAA888D605D96367254326084D102E4 /* UIView+JHChainableAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 6786F4AB1945AEC9DAFA7DDB27D85D6C /* UIView+JHChainableAnimations.h */; };
+		5BE9F885F693B7967C3FEAFCE0B471BE /* JHChainableAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = B4048C3D1F11F0F6A283AE98775AEC75 /* JHChainableAnimations.h */; };
+		6C00E2BAFD147E24A0C143A1D8981CDB /* JHKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B21E76DCF81CF51EF44799A743959F /* JHKeyframeAnimation.m */; };
+		6DCC139F549B40446E8D68C0766C7DE0 /* KYCuteView.h in Headers */ = {isa = PBXBuildFile; fileRef = 620190C57DC57D0E03F19E09E67E527F /* KYCuteView.h */; };
+		85228548DC43F7485A888CB4D15B1974 /* KYCuteView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 327F79161ED820A6DA1882176446B48A /* KYCuteView-dummy.m */; };
+		9B838190E2B806A593F756A9A8D2F800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0212E3AA629BD1D87D2A780E28A17589 /* Foundation.framework */; };
+		A9BF40C558443385EFA951F5D591B6A3 /* JHChainableBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AA82041C0D12D467053378D3B9B60B /* JHChainableBlocks.h */; };
+		CF7ECEE97251B18738D4BE2E8CB4E531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0212E3AA629BD1D87D2A780E28A17589 /* Foundation.framework */; };
+		D17F44A5089CFB617B4C506C6C774F00 /* NSBKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 20F2482041D04E434DE7CDBE64216B52 /* NSBKeyframeAnimationFunctions.c */; };
+		D63E0AA51B59E01E623271D3CFC2BD1E /* JHKeyframeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 945CB5E019446BBFD8610C4390040EF5 /* JHKeyframeAnimation.h */; };
+		E2783507C0A4E39DA4B9D563649E05E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8BDA804C010E048990AEB7237F1138 /* UIKit.framework */; };
+		EFFD3456521B83547E3D2D93BC34E2CF /* NSBKeyframeAnimationFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D15D59B8FA68F34E404C131B088686 /* NSBKeyframeAnimationFunctions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		464B59327FF1105A523A2FE38E03C3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0266A281BD2B8E9A2B143AFCF820C1F;
+			remoteInfo = KYCuteView;
+		};
+		484B2EC56F15E961C2A8919169B8EEA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8248DDC977451C09663EF58DB23B719;
+			remoteInfo = JHChainableAnimations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0212E3AA629BD1D87D2A780E28A17589 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		02964B5A15083B482201C2B621E86399 /* JHChainableAnimations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHChainableAnimations-prefix.pch"; sourceTree = "<group>"; };
+		103D8560D257AB0E5586766B5D718C79 /* JHChainableAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JHChainableAnimations.xcconfig; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		171627EFA23A4288A2D8758584795615 /* libKYCuteView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKYCuteView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F2482041D04E434DE7CDBE64216B52 /* NSBKeyframeAnimationFunctions.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = NSBKeyframeAnimationFunctions.c; path = JHChainableAnimations/NSBKeyframeAnimationFunctions.c; sourceTree = "<group>"; };
+		2F638C37BD9548603D446083D89ADC63 /* libJHChainableAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJHChainableAnimations.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		327F79161ED820A6DA1882176446B48A /* KYCuteView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYCuteView-dummy.m"; sourceTree = "<group>"; };
+		382EC0767E4F1B157E788240DF9B2527 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF6DC35EAD034F22C288D4F2F06E535 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		5EF127924512FDF554F36EA451A5C000 /* JHChainableAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JHChainableAnimations-dummy.m"; sourceTree = "<group>"; };
+		620190C57DC57D0E03F19E09E67E527F /* KYCuteView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYCuteView.h; path = KYCuteView/KYCuteView.h; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6786F4AB1945AEC9DAFA7DDB27D85D6C /* UIView+JHChainableAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JHChainableAnimations.h"; path = "JHChainableAnimations/UIView+JHChainableAnimations.h"; sourceTree = "<group>"; };
+		6B8BDA804C010E048990AEB7237F1138 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7C1962337AD3765B465184E5474CF332 /* KYCuteView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYCuteView-prefix.pch"; sourceTree = "<group>"; };
+		8FD44D100A567249A69947BDECAA5AE8 /* JHChainableAnimations-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JHChainableAnimations-Private.xcconfig"; sourceTree = "<group>"; };
+		945CB5E019446BBFD8610C4390040EF5 /* JHKeyframeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHKeyframeAnimation.h; path = JHChainableAnimations/JHKeyframeAnimation.h; sourceTree = "<group>"; };
+		96D15D59B8FA68F34E404C131B088686 /* NSBKeyframeAnimationFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSBKeyframeAnimationFunctions.h; path = JHChainableAnimations/NSBKeyframeAnimationFunctions.h; sourceTree = "<group>"; };
+		A6AA82041C0D12D467053378D3B9B60B /* JHChainableBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHChainableBlocks.h; path = JHChainableAnimations/JHChainableBlocks.h; sourceTree = "<group>"; };
+		B4048C3D1F11F0F6A283AE98775AEC75 /* JHChainableAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHChainableAnimations.h; path = JHChainableAnimations/JHChainableAnimations.h; sourceTree = "<group>"; };
+		B7224F738FB115BCEF6E13A4F67C24EA /* UIView+JHChainableAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JHChainableAnimations.m"; path = "JHChainableAnimations/UIView+JHChainableAnimations.m"; sourceTree = "<group>"; };
+		B95719922D86A02DAA44FB013C26C45E /* KYCuteView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYCuteView.m; path = KYCuteView/KYCuteView.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3AE43AFA989FBCFC84FCE6D5AF63671 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		C5B21E76DCF81CF51EF44799A743959F /* JHKeyframeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHKeyframeAnimation.m; path = JHChainableAnimations/JHKeyframeAnimation.m; sourceTree = "<group>"; };
+		CC10F9A494BBB83997F4F6DFFFE02347 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		D192ED913BE8AB32F13863D4E81D1C20 /* KYCuteView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KYCuteView-Private.xcconfig"; sourceTree = "<group>"; };
+		D8AB5FEB6909ECE677E0A7C8994E0323 /* KYCuteView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYCuteView.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03ADDA7C3E2FAD0B25CB5ECE5ECCF0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237FFF544995D83AAFAEE1EEEC9AD0C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A8CACC1D0538C056E9E3EDA720B5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B838190E2B806A593F756A9A8D2F800 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45246C9C6D1B27F911A71CDE42D2D684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7ECEE97251B18738D4BE2E8CB4E531 /* Foundation.framework in Frameworks */,
+				E2783507C0A4E39DA4B9D563649E05E0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BEF096DC3C2BB7B8B697A63A6C3A953A /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DD6841E0573C5C682CCE34CFCE22EBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				103D8560D257AB0E5586766B5D718C79 /* JHChainableAnimations.xcconfig */,
+				8FD44D100A567249A69947BDECAA5AE8 /* JHChainableAnimations-Private.xcconfig */,
+				5EF127924512FDF554F36EA451A5C000 /* JHChainableAnimations-dummy.m */,
+				02964B5A15083B482201C2B621E86399 /* JHChainableAnimations-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JHChainableAnimations";
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				C3AE43AFA989FBCFC84FCE6D5AF63671 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				CC10F9A494BBB83997F4F6DFFFE02347 /* Pods.debug.xcconfig */,
+				3CF6DC35EAD034F22C288D4F2F06E535 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		9D5E804DAF27F29CAF499C53DE153102 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8AB5FEB6909ECE677E0A7C8994E0323 /* KYCuteView.xcconfig */,
+				D192ED913BE8AB32F13863D4E81D1C20 /* KYCuteView-Private.xcconfig */,
+				327F79161ED820A6DA1882176446B48A /* KYCuteView-dummy.m */,
+				7C1962337AD3765B465184E5474CF332 /* KYCuteView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KYCuteView";
+			sourceTree = "<group>";
+		};
+		BEF096DC3C2BB7B8B697A63A6C3A953A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB21C0E352044D4C78667427482AB0C /* JHChainableAnimations */,
+				D6C91CF2492DCC8A9848635967888178 /* KYCuteView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F638C37BD9548603D446083D89ADC63 /* libJHChainableAnimations.a */,
+				171627EFA23A4288A2D8758584795615 /* libKYCuteView.a */,
+				382EC0767E4F1B157E788240DF9B2527 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0212E3AA629BD1D87D2A780E28A17589 /* Foundation.framework */,
+				6B8BDA804C010E048990AEB7237F1138 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D6C91CF2492DCC8A9848635967888178 /* KYCuteView */ = {
+			isa = PBXGroup;
+			children = (
+				620190C57DC57D0E03F19E09E67E527F /* KYCuteView.h */,
+				B95719922D86A02DAA44FB013C26C45E /* KYCuteView.m */,
+				9D5E804DAF27F29CAF499C53DE153102 /* Support Files */,
+			);
+			path = KYCuteView;
+			sourceTree = "<group>";
+		};
+		DEB21C0E352044D4C78667427482AB0C /* JHChainableAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				B4048C3D1F11F0F6A283AE98775AEC75 /* JHChainableAnimations.h */,
+				A6AA82041C0D12D467053378D3B9B60B /* JHChainableBlocks.h */,
+				945CB5E019446BBFD8610C4390040EF5 /* JHKeyframeAnimation.h */,
+				C5B21E76DCF81CF51EF44799A743959F /* JHKeyframeAnimation.m */,
+				20F2482041D04E434DE7CDBE64216B52 /* NSBKeyframeAnimationFunctions.c */,
+				96D15D59B8FA68F34E404C131B088686 /* NSBKeyframeAnimationFunctions.h */,
+				6786F4AB1945AEC9DAFA7DDB27D85D6C /* UIView+JHChainableAnimations.h */,
+				B7224F738FB115BCEF6E13A4F67C24EA /* UIView+JHChainableAnimations.m */,
+				8DD6841E0573C5C682CCE34CFCE22EBB /* Support Files */,
+			);
+			path = JHChainableAnimations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BEBDCB8AA39BD1F0A7600B2FFC859EC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE9F885F693B7967C3FEAFCE0B471BE /* JHChainableAnimations.h in Headers */,
+				A9BF40C558443385EFA951F5D591B6A3 /* JHChainableBlocks.h in Headers */,
+				D63E0AA51B59E01E623271D3CFC2BD1E /* JHKeyframeAnimation.h in Headers */,
+				EFFD3456521B83547E3D2D93BC34E2CF /* NSBKeyframeAnimationFunctions.h in Headers */,
+				3CAA888D605D96367254326084D102E4 /* UIView+JHChainableAnimations.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F506B346FA1620E4EC1918C72B54F98F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCC139F549B40446E8D68C0766C7DE0 /* KYCuteView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A8248DDC977451C09663EF58DB23B719 /* JHChainableAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5326DCAFDAF009EC53E7E49D04BC5D5 /* Build configuration list for PBXNativeTarget "JHChainableAnimations" */;
+			buildPhases = (
+				E62333F982F480F04E17230096C4E5C8 /* Sources */,
+				03ADDA7C3E2FAD0B25CB5ECE5ECCF0DF /* Frameworks */,
+				BEBDCB8AA39BD1F0A7600B2FFC859EC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHChainableAnimations;
+			productName = JHChainableAnimations;
+			productReference = 2F638C37BD9548603D446083D89ADC63 /* libJHChainableAnimations.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C0266A281BD2B8E9A2B143AFCF820C1F /* KYCuteView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B72F837679F14CDED2BA45619D1B5E /* Build configuration list for PBXNativeTarget "KYCuteView" */;
+			buildPhases = (
+				A7C99F678969F66B8725167E8E3BAC9C /* Sources */,
+				45246C9C6D1B27F911A71CDE42D2D684 /* Frameworks */,
+				F506B346FA1620E4EC1918C72B54F98F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYCuteView;
+			productName = KYCuteView;
+			productReference = 171627EFA23A4288A2D8758584795615 /* libKYCuteView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFED750C954BF2911A8184A4E643BCB7 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9E561FC88F790BB0560852625F17A7 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				323652138766447B8E77C52A5564E130 /* Sources */,
+				44A8CACC1D0538C056E9E3EDA720B5CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1A19267D2CA73264303B76C7DB85C8 /* PBXTargetDependency */,
+				02D82C712C9E26827E0D9CBA1715A89B /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 382EC0767E4F1B157E788240DF9B2527 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8248DDC977451C09663EF58DB23B719 /* JHChainableAnimations */,
+				C0266A281BD2B8E9A2B143AFCF820C1F /* KYCuteView */,
+				DFED750C954BF2911A8184A4E643BCB7 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323652138766447B8E77C52A5564E130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C3E8DE093B69C36DB705D30B4779E4 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C99F678969F66B8725167E8E3BAC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85228548DC43F7485A888CB4D15B1974 /* KYCuteView-dummy.m in Sources */,
+				1F4598C76EFFF8E10619B496451B8329 /* KYCuteView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62333F982F480F04E17230096C4E5C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030AE5C0CD4052B8DAB54BFC99E8E470 /* JHChainableAnimations-dummy.m in Sources */,
+				6C00E2BAFD147E24A0C143A1D8981CDB /* JHKeyframeAnimation.m in Sources */,
+				D17F44A5089CFB617B4C506C6C774F00 /* NSBKeyframeAnimationFunctions.c in Sources */,
+				15306B5DB72B5BF66533DA73E235AC55 /* UIView+JHChainableAnimations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D82C712C9E26827E0D9CBA1715A89B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYCuteView;
+			target = C0266A281BD2B8E9A2B143AFCF820C1F /* KYCuteView */;
+			targetProxy = 464B59327FF1105A523A2FE38E03C3EB /* PBXContainerItemProxy */;
+		};
+		2F1A19267D2CA73264303B76C7DB85C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JHChainableAnimations;
+			target = A8248DDC977451C09663EF58DB23B719 /* JHChainableAnimations */;
+			targetProxy = 484B2EC56F15E961C2A8919169B8EEA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15C82BB633A49FBD195812D75E86A884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF6DC35EAD034F22C288D4F2F06E535 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1A9A6524B1ED583099E66EEA5A0BC6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D192ED913BE8AB32F13863D4E81D1C20 /* KYCuteView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYCuteView/KYCuteView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2C011D034E0D40B5A11BD73DF631D0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD44D100A567249A69947BDECAA5AE8 /* JHChainableAnimations-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JHChainableAnimations/JHChainableAnimations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		755C5F7DE4DF7A41714083FB3DACFD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D192ED913BE8AB32F13863D4E81D1C20 /* KYCuteView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYCuteView/KYCuteView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE5D593BB59E405FAD2315504D822121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD44D100A567249A69947BDECAA5AE8 /* JHChainableAnimations-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JHChainableAnimations/JHChainableAnimations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EFFC001C2BD3D92473C7D614434D47D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC10F9A494BBB83997F4F6DFFFE02347 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9E561FC88F790BB0560852625F17A7 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFC001C2BD3D92473C7D614434D47D8 /* Debug */,
+				15C82BB633A49FBD195812D75E86A884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5326DCAFDAF009EC53E7E49D04BC5D5 /* Build configuration list for PBXNativeTarget "JHChainableAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C011D034E0D40B5A11BD73DF631D0C1 /* Debug */,
+				EE5D593BB59E405FAD2315504D822121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B72F837679F14CDED2BA45619D1B5E /* Build configuration list for PBXNativeTarget "KYCuteView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755C5F7DE4DF7A41714083FB3DACFD3D /* Debug */,
+				1A9A6524B1ED583099E66EEA5A0BC6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
